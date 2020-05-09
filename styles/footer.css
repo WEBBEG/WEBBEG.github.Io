@@ -1,0 +1,26 @@
+/* It is footer syling */
+footer {
+  background-color: #4c5961;
+  margin: 0;
+  height: 50px;
+
+}
+
+/* I used list for footer part */
+footer ul  {
+  margin-bottom: 0;
+  list-style-type: none;
+
+}
+footer li {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  display: inline;
+  color: white;
+
+}
+/* to elemenate underlined effect */
+footer a {
+  text-decoration: none;
+
+}

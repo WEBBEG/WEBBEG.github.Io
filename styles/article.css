@@ -1,0 +1,88 @@
+/* This section is almost the same as header.css, however it is in order to fix problem with new added picture on aside part */
+
+#homeless {
+  border: 2px solid black;
+  float:left;
+}
+/* This is in order to elemenate space  */
+body {
+  margin: 0;
+  padding: 0;
+}
+/* I have used grid style in order to fil logo with list */
+header{
+  background-color: #35424a;
+  min-height: 40px;
+  display: grid;
+  grid-template-columns: 0.2fr 0.8fr;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+padding-top: 18px;
+margin:0;
+
+}
+/* In order to create navigation menu in top of the website, I used inline */
+nav li {
+  display: inline;
+  margin: 4px;
+}
+/* to elemenate underlined link I set text-decoration to none */
+nav li a {
+  color: white;
+padding: 28px;
+  text-decoration: none;
+
+}
+/* it is for hover and tex inside */
+nav li a:hover {
+ color: orange;
+ border: 1px solid black;
+ background-color: #313c43;
+
+}
+/* I have used grid for article section to design aside properly  */
+
+article {
+  display: grid;
+  grid-template-columns: 0.99fr 0.01fr;
+}
+ /* I used transparent image which was created by me using photoshop in order to give different background style  */
+aside {
+margin: 0;
+background: url('../images/footerhover.png');
+background-size: 100% 100%;
+
+
+}
+/* to make design more similar with navgition and footer, I used bachground color for body part */
+ body {
+  background-color: #cdd2d6;
+
+}
+/* In order to distinguish the webpage where person is, I used active */
+.active {
+  background-color: #5f7988;
+  color: orange;
+
+}
+table {
+  border: 2px solid #666562;
+  text-align: center;
+  background-color: #bac2ba;
+
+}
+td {
+  border: 2px solid #666562;
+  text-align: center;
+  background-color: #bac2ba;
+
+}
+th {
+  border: 2px solid #666562;
+    background-color: #bac2ba;
+
+}
